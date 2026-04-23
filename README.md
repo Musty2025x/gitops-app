@@ -24,6 +24,8 @@ A code push to the application repository automatically triggers a full deployme
 | **gitops-app** | Application source code + Dockerfile + CI pipeline |
 | **gitops-k8s-config** | Kubernetes manifests — ArgoCD watches this repo |
 
+> 🔗 **K8s Config Repo:** [github.com/Musty2025x/gitops-k8s-config](https://github.com/Musty2025x/gitops-k8s-config)
+> 
 > Separating app code from K8s config is a GitOps best practice. It gives you a clean audit trail of every deployment, allows rollback by reverting a Git commit, and lets platform and development teams work independently.
 
 ---
