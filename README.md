@@ -585,7 +585,7 @@ Health:      Healthy 💚
 
 📸 **Screenshot — ArgoCD UI showing gitops-app Synced and Healthy:**
 
-> _![alt text](<asset/Screenshot 2026-04-23 050607.png>)_
+> _![alt text](<asset/argocd-synced-healthy.png>)_
 
 Click the application to see the full resource tree:
 
@@ -602,7 +602,7 @@ gitops-app (Application)
 
 📸 **Screenshot — ArgoCD resource tree view:**
 
-> _![alt text](<asset/Screenshot 2026-04-23 050731.png>)_
+> _![alt text](<asset/argocd-resource-tree.png>)_
 
 ---
 
@@ -643,11 +643,11 @@ git push origin master
 
 📸 **Screenshot — GitHub Actions workflow running (build step):**
 
-> _![alt text](<asset/Screenshot 2026-04-23 051103.png>)_
+> _![alt text](<asset/github-actions-running.png>)_
 
 📸 **Screenshot — GitHub Actions workflow completed successfully:**
 
-> _![alt text](<asset/Screenshot 2026-04-23 051233.png>)_
+> _![alt text](<asset/github-actions-completed.png>)_
 
 ---
 
@@ -784,11 +784,11 @@ gitops-app-xxxxxxxxx-xxxxx    1/1     Running   0          3m
 
 📸 **Screenshot — ArgoCD OutOfSync after manual scale:**
 
-> _![alt text](<asset/Screenshot 2026-04-23 053406.png>)_
+> _![alt text](<asset/argocd-outofsync-after-scale.png>)_
 
 📸 **Screenshot — ArgoCD self-healed back to Synced:**
 
-> _![alt text](<asset/Screenshot 2026-04-23 053421.png>)_
+> _![alt text](<asset/argocd-outofsync-selfheal.png>)_
 
 ---
 
