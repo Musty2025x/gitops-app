@@ -4,7 +4,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.json({
     message: 'GitOps Demo App',
-    version: process.env.APP_VERSION || '2.0.0'
+    version: process.env.APP_VERSION || '3.0.0'
   });
 });
 
